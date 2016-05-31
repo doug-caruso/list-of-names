@@ -5,25 +5,26 @@
     <title>List of Names</title>
 </head>
 <body>
-    <h1>List of Names</h1>
-    <form id="form-name" action="">
-        <fieldset>
-            <legend>Add a name</legend>
-       
-            <label for="name">
-                Name
-                <input type="text" id="name">
-            </label>
-            <input type="submit" value="Add">
-        </fieldset>
-    </form>
-    
+
+<h1>List of Names</h1>
+<form id="form-name" action="">
     <fieldset>
-        <legend>Names</legend>
-        <ul id="list-name"></ul>
-    </fieldset>
-    
-    
-    <script src="js/app.js"></script>
+        <legend>Add a name</legend>
+        
+        <label for="name">
+            Name
+            <input type="text" required="required" id="name">
+        </label>
+        
+        <input type="submit" value="Add">
+    </fieldset>    
+</form>
+
+<fieldset>
+    <legend>Names</legend>
+    <ul id="list-name"></ul>
+</fieldset>
+
+<script src="js/app.js"></script>
 </body>
 </html>
