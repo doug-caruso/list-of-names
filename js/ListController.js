@@ -22,6 +22,11 @@ var ListController = {
         HTMLService.displayAddedName(name);
     },
     
+    displayNames: function () {
+        var names = ListService.getList();
+        names.forEach(HTMLService.displayAddedName);
+    }
+    
 };
 
 //initialization
