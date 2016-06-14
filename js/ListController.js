@@ -3,6 +3,7 @@ var ListController = {
     
     init: function(params) {
         ListController.setForm();
+        ListController.displayNames();
     },
     
     setForm: function () {
